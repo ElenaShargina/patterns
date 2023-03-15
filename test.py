@@ -7,3 +7,4 @@ print('Some information...')
 
 print("Hello from Petr!!!")
 
+print('Hello from myfix!')
