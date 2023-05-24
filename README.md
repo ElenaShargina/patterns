@@ -5,6 +5,7 @@
 ## I Порождающие паттерны
 
 ### 1. Abstract factory
+<a href = 'https://colab.research.google.com/drive/10E658Z75OGiDHQjpRrA1jgJS42VdRopr?usp=sharing' >блокнот на Collab</a>
 
 ### 2. Builder
 
