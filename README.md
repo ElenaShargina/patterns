@@ -5,16 +5,17 @@
 ## I Порождающие паттерны
 
 ### 1. Abstract factory
-<a href = 'https://colab.research.google.com/drive/10E658Z75OGiDHQjpRrA1jgJS42VdRopr?usp=sharing' >блокнот на Collab</a>
+<a href = 'https://colab.research.google.com/drive/10E658Z75OGiDHQjpRrA1jgJS42VdRopr?usp=sharing' >блокнот на Colab</a>
 
 ### 2. Builder
+<a href = 'https://colab.research.google.com/drive/1Q4IVpr1U-g-dhMdIKjI1DRS5l5T_Bc0P?usp=sharing'>блокнот на Colab</a>
 
 ### 3. Factory method
 
 ### 4. Prototype
 
 ### 5. Singleton / Одиночка
-<a href='https://colab.research.google.com/drive/17Bj63ngD_z8kBIEbnNQ1k93It4Wgb56S?usp=sharing'>блокнот на Collab</a>
+<a href='https://colab.research.google.com/drive/17Bj63ngD_z8kBIEbnNQ1k93It4Wgb56S?usp=sharing'>блокнот на Colab</a>
 
 ## II Структурные паттерны
 

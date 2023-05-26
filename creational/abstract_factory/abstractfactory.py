@@ -1,4 +1,5 @@
 from maze import *
+from abc import ABC
 from random import Random
 """
 PATTERN abstract factory
@@ -6,7 +7,7 @@ PATTERN abstract factory
 """
 абстрактный интерфейс для продукта фабрики - лабиринта
 """
-class AbstractMaze:
+class AbstractMaze(ABC):
     def draw(self):
         pass
     def add_room(self, r):
@@ -18,7 +19,7 @@ class AbstractMaze:
 абстрактная фабрика для изготовления лабиринтов вне зависимости от их реализации,
 главное, чтобы их продукт удовлетворял интерфейсу абстрактного продукта
 """
-class MazeFactory:
+class MazeFactory (ABC):
     def make_maze(self):
         pass
     def make_room(self):
