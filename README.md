@@ -11,7 +11,7 @@
 <a href = 'https://colab.research.google.com/drive/1Q4IVpr1U-g-dhMdIKjI1DRS5l5T_Bc0P?usp=sharing'>блокнот на Colab</a>
 
 ### 3. Factory method
-
+<a href='https://colab.research.google.com/drive/1HHFzSXxAGZ3QzRqnruHPnmLltG-mrbqx?usp=sharing'>Блокнот на Colab</a>
 ### 4. Prototype
 
 ### 5. Singleton / Одиночка
