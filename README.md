@@ -13,6 +13,7 @@
 ### 3. Factory method
 <a href='https://colab.research.google.com/drive/1HHFzSXxAGZ3QzRqnruHPnmLltG-mrbqx?usp=sharing'>Блокнот на Colab</a>
 ### 4. Prototype
+<a href='https://colab.research.google.com/drive/18sGbAkT_GX3DVScNDKSQJ8VEJQfuEI-u?usp=sharing'>Блокнот на Colab</a>
 
 ### 5. Singleton / Одиночка
 <a href='https://colab.research.google.com/drive/17Bj63ngD_z8kBIEbnNQ1k93It4Wgb56S?usp=sharing'>блокнот на Colab</a>
@@ -20,6 +21,7 @@
 ## II Структурные паттерны
 
 ### 1. Adapter
+<a href='https://colab.research.google.com/drive/1n2KCFl4W8Hf_v9m3qcWg9pZhltaCwdLa?usp=sharing'>блокнот на Colab</a>
 
 ### 2. Bridge
 
