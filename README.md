@@ -24,6 +24,7 @@
 <a href='https://colab.research.google.com/drive/1n2KCFl4W8Hf_v9m3qcWg9pZhltaCwdLa?usp=sharing'>блокнот на Colab</a>
 
 ### 2. Bridge
+<a href='https://colab.research.google.com/drive/19DCBEHxheqIVRz2QUklE6ByeH0SlrIBf?usp=sharing'>блокнот на Colab</a>
 
 ### 3. Composite
 
