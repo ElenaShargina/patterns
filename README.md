@@ -30,6 +30,7 @@
 <a href='https://colab.research.google.com/drive/1p0xX_xGdvnVSLYawhdbBaA5dQLfddfjB?usp=sharing'>блокнот на Colab</a>
 
 ### 4. Decorator
+<a href='https://colab.research.google.com/drive/1b9BI2eA-RkjLhpu7bZ2LjajYQMiNno7H?usp=sharing'>блокнот на Colab</a>
 
 ### 5. Facade
 
