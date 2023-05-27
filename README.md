@@ -27,6 +27,7 @@
 <a href='https://colab.research.google.com/drive/19DCBEHxheqIVRz2QUklE6ByeH0SlrIBf?usp=sharing'>блокнот на Colab</a>
 
 ### 3. Composite
+<a href='https://colab.research.google.com/drive/1p0xX_xGdvnVSLYawhdbBaA5dQLfddfjB?usp=sharing'>блокнот на Colab</a>
 
 ### 4. Decorator
 
