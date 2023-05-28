@@ -39,6 +39,7 @@
 <a href='https://colab.research.google.com/drive/1kqHV6EPYMSme-dnuhZN-KXgXs9zwqv2S?usp=sharing'>блокнот на Colab</a>
 
 ### 7. Proxy
+<a href='https://colab.research.google.com/drive/1-wrteGTAFpWemzyk8dAzkma6ePlaZkJ5?usp=sharing'>блокнот на Colab</a>
 
 ## III Поведенческие паттерны
 
