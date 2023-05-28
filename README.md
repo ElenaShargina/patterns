@@ -44,23 +44,34 @@
 ## III Поведенческие паттерны
 
 ### 1. Chain of responsibility
+<a href='https://colab.research.google.com/drive/1ZDQCclsoviVTZRx3u4Al00_UDeALaX1o?usp=sharing'>блокнот на Colab</a>
 
 ### 2. Command
+<a href='https://colab.research.google.com/drive/1ZGFAA3Vf8WpSUKOAmkhVFmMs1VygaPQV?usp=sharing'>блокнот на Colab</a>
 
 ### 3. Interpreter
+<a href='https://colab.research.google.com/drive/1x94CDRQ5xCpd6q1X9OFjwFCHcZh_Ra3h?usp=sharing'>блокнот на Colab</a>
 
 ### 4. Iterator
+<a href='https://colab.research.google.com/drive/1B3b9iqUjy_vKTlD30vcihshLHvMW9ZhT?usp=sharing'>блокнот на Colab</a>
 
 ### 5. Mediator
+<a href='https://colab.research.google.com/drive/19sfpg6YAT1gCE6tkTfZlquUyaEcTonOy?usp=sharing'>блокнот на Colab</a>
 
 ### 6. Memento
+<a href='https://colab.research.google.com/drive/1j5W5rrAF3V_Jj2HbBbuIp5nVW2jbB1TI?usp=sharing'>блокнот на Colab</a>
 
 ### 7. Observer
+<a href='https://colab.research.google.com/drive/1-UccTOpBOjrhL6qkeMyZLvcOWC9yuF23?usp=sharing'>блокнот на Colab</a>
 
 ### 8. State
+<a href='https://colab.research.google.com/drive/16mr_bi2OBnJUej-ryPAStmDRO7H23cH0?usp=sharing'>блокнот на Colab</a>
 
 ### 9. Strategy
+<a href='https://colab.research.google.com/drive/1pCwuj7-FJCw0-SUHM9bgLUTwQjlx918j?usp=sharing'>блокнот на Colab</a>
 
 ### 10. Template method
+<a href='https://colab.research.google.com/drive/1x27irzzx8Zmha8KdNU5G8Llw1g2OOKz7?usp=sharing'>блокнот на Colab</a>
 
 ### 11. Visitor
+<a href='https://colab.research.google.com/drive/1Ebdt0KZ8vEs0sE98J-qrCj5RD45UGGv-?usp=sharing'>блокнот на Colab</a>

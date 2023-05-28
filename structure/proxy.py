@@ -30,7 +30,7 @@ class Page:
 """
 class RealBook:
     def get_page(self,number):
-        print('Asking for new page!')
+        print('Generating new page...')
         text = ''.join([random.choice(string.ascii_letters+string.punctuation+' ') for x in range(120)])
         return Page(number,text)
 """
@@ -60,8 +60,11 @@ class Book:
 
 if __name__=='__main__':
     b = Book()
+    # обращаемся каждый раз к новой странице, они будут генерироваться
     for n in range(1,10):
         p = b.get_page(n)
         print(p.text)
+    # обращаемся к уже запрошенной когда-то странице,
+    # она не будет генерироваться заново, а возьмется из кеша
     p = b.get_page(3)
     print(p.text)

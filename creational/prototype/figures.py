@@ -31,14 +31,14 @@
 своеобразной альтернативой созданию подклассов.
 https://radioprog.ru/post/1467
 """
-import copy
+import matplotlib as plt
 
 class Figure:
     def clone(self):
         pass
     def getInfo(self):
-        print(id(self))
-        print(self.__dict__)
+        print('ID объекта: ',id(self))
+        print('Свойства объекта: ',self.__dict__)
 
 class Rectangular(Figure):
     def __init__(self,width,height):
@@ -47,15 +47,22 @@ class Rectangular(Figure):
         self.square = self.width*self.height
 
     def clone(self):
-        return copy.deepcopy(self)
+        pass
+        # return copy.deepcopy(self)
 
 class Circle(Figure):
     def __init__(self,radius):
         self.radius = radius
         self.square = self.radius*2*3.14
+        circle = plt.Circle((0,0),self.radius)
+        ax = plt.gca()
+        ax.add_patch(circle)
+        plt.show()
 
     def clone(self):
-        return copy.deepcopy(self)
+        new_circle = Circle(self.radius)
+        return new_circle
+        # return copy.deepcopy(self)
 
 if __name__=='__main__':
     r1 = Rectangular(10,15)
