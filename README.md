@@ -33,6 +33,7 @@
 <a href='https://colab.research.google.com/drive/1b9BI2eA-RkjLhpu7bZ2LjajYQMiNno7H?usp=sharing'>блокнот на Colab</a>
 
 ### 5. Facade
+<a href='https://colab.research.google.com/drive/1B03C90Fx2JvlgvwJS2LOnpTa_a-t9YGo?usp=sharing'>блокнот на Colab</a>
 
 ### 6. Flyweight
 
