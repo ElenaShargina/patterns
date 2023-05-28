@@ -58,7 +58,7 @@
 ### 5. Mediator
 <a href='https://colab.research.google.com/drive/19sfpg6YAT1gCE6tkTfZlquUyaEcTonOy?usp=sharing'>блокнот на Colab</a>
 
-### 6. Memento
+### 6. Memento - !
 <a href='https://colab.research.google.com/drive/1j5W5rrAF3V_Jj2HbBbuIp5nVW2jbB1TI?usp=sharing'>блокнот на Colab</a>
 
 ### 7. Observer
