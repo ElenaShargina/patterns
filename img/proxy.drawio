@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2023-05-28T09:12:10.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="sPjSjcP_sIhq36kGz1Y_" version="21.1.2" type="device">
+  <diagram name="Page-1" id="qVXxed1SwHL4cAU6rk2I">
+    <mxGraphModel dx="1206" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5GPSz775vkizawft-tma-1" value="Book" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="80" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-2" value="- proxy: BookProxy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5GPSz775vkizawft-tma-1" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="5GPSz775vkizawft-tma-1" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-4" value="+ get_page(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5GPSz775vkizawft-tma-1" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-5" value="BookProxy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="200" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-6" value="- book: RealBook&#xa;- pages: Dictionary" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5GPSz775vkizawft-tma-5" vertex="1">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="5GPSz775vkizawft-tma-5" vertex="1">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-8" value="+ get_page(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5GPSz775vkizawft-tma-5" vertex="1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-9" value="RealBook" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="5GPSz775vkizawft-tma-9" vertex="1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-12" value="+ get_page(number)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5GPSz775vkizawft-tma-9" vertex="1">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-14" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.008;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5GPSz775vkizawft-tma-5" target="5GPSz775vkizawft-tma-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="140" as="sourcePoint" />
+            <mxPoint x="310" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="134" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-15" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1.008;entryY=0.788;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.021;exitY=0.949;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="496.6400000000001" y="236.67399999999998" as="sourcePoint" />
+            <mxPoint x="281.28" y="238.67200000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-16" value="" style="group;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="45" y="400" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-17" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="5GPSz775vkizawft-tma-16" vertex="1">
+          <mxGeometry width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5GPSz775vkizawft-tma-18" value="&lt;b&gt;get_page(number):&lt;br&gt;&lt;/b&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;if number in self._pages:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return self._pages[number]&lt;br&gt;else:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return self._book.get_page(number)&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5GPSz775vkizawft-tma-16" vertex="1">
+          <mxGeometry x="10" y="10" width="270" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="zWFzkPR7r9gxZvcB5Rke-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="5GPSz775vkizawft-tma-17" target="5GPSz775vkizawft-tma-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
