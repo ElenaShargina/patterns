@@ -10,12 +10,10 @@ class Abstract_iterator:
 
 class Straight_Iterator(Abstract_iterator):
     def __iter__(self):
-        print('initialize iter')
         self.ix = 0
         return self
 
     def __next__(self):
-        # print('next->')
         if self.ix >= len(self._data):
             raise StopIteration
         item = self._data[self.ix]
@@ -24,7 +22,6 @@ class Straight_Iterator(Abstract_iterator):
 
 class Backward_iterator(Abstract_iterator):
     def __iter__(self):
-        print('initialize back iter')
         self.ix = len(self._data)-1
         return self
 
@@ -48,18 +45,19 @@ class Abstract_List:
     def create_iterator(self,iterator_cls):
         return iterator_cls(self)
 
+    def __str__(self):
+        return ', '.join(str(i) for i in self._data)
 
 
 if __name__=='__main__':
-    # x = Backward_iterator(Abstract_List([1,2,3,4,5]))
-    # x = Abstract_List([1,2,3,4]).create_iterator(Straight_Iterator)
-    #
-    # for i in x:
-    #     print(i, end=' | ')
-
+    print('Инициализируем список')
     x = Abstract_List([1,2,3,4,5])
+    print(x)
+    print('Запускаем прямой итератор')
     i1 = x.create_iterator(Straight_Iterator)
+    for k in i1:
+        print(k)
+    print('Запускаем обратный итератор')
     i2 = x.create_iterator(Backward_iterator)
-    for i in i1:
-        for j in i2:
-            print(str(i)+'-'+str(j))
+    for k in i2:
+        print(k)

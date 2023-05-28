@@ -72,12 +72,20 @@ class Backward_Iterator(Abstract_Iterator):
     def current_item(self):
         return self._list[self._index]
 
+class House:
+    def __init__(self, street, house):
+        self.street = street
+        self.house = house
+
+    def __str__(self):
+         return ' '.join([self.street, self.house])
+
 class House_dict(Abstract_List):
     def __init__(self):
         self._list = []
     def count(self):
         return len(self._list)
-    def append(self,item):
+    def append(self,item : House):
         self._list.append(item)
     def remove(self,item):
         self._list.pop(item)
@@ -93,39 +101,42 @@ if __name__=='__main__':
     mylist.append('Sergei Sergeev')
     mylist.append('Prohor Prohorov')
     mylist.append('Anna Sergeeva')
-    print(mylist.count())
-    # mylist.show()
-    # mylist.remove('Ivan Ivanov')
-    # mylist.show()
-    print('Straight iterator on person list')
+    print('Наш начальный список людей:')
+    mylist.show()
+    print('Людей в списке: ',mylist.count())
+    print('Удаляем Ivan Ivanov, теперь список выглядит так: ')
+    mylist.remove('Ivan Ivanov')
+    mylist.show()
+    print('Запускаем прямой итератор по списку людей: ')
     iter1 = mylist.create_iterator(Straight_Iterator)
     iter1.first()
     while not iter1.is_done():
         print(iter1.current_item())
         iter1.next()
 
-    print('Backward iterator on person list')
+    print('Запускаем обратный итератор по списку людей: ')
     iter2 = mylist.create_iterator(Backward_Iterator)
     iter2.first()
     while not iter2.is_done():
         print(iter2.current_item())
         iter2.next()
-    print('Straight and backward iterator on person list')
+
+    print('Запускаем одновременно прямой и обратный итераторы по списку людей: ')
     iter3 = mylist.create_iterator(Straight_Iterator)
     iter4 = mylist.create_iterator(Backward_Iterator)
     iter3.first()
     iter4.first()
     while not (iter3.is_done() and iter4.is_done()):
-        print('Straight: '+ iter3.current_item())
-        print('Backward: ' + iter4.current_item())
+        print('->: '+ iter3.current_item(), ' - ', '<-: ' + iter4.current_item())
         iter3.next()
         iter4.next()
 
+    print('Список домов')
     my_dict = House_dict()
-    my_dict.append(['panel','113'])
-    my_dict.append(['brick','198'])
-    my_dict.append(['wood','1394'])
-    print('Backward iterator on house list')
+    my_dict.append(House('Сиреневая улица','113'))
+    my_dict.append(House('Ивановская улица','8'))
+    my_dict.append(House('Коробковая улица','4'))
+    print('Запускаем обратный итератор по списку домов: ')
     iter5 = my_dict.create_iterator(Backward_Iterator)
     iter5.first()
     while not iter5.is_done():
