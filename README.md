@@ -36,6 +36,7 @@
 <a href='https://colab.research.google.com/drive/1B03C90Fx2JvlgvwJS2LOnpTa_a-t9YGo?usp=sharing'>блокнот на Colab</a>
 
 ### 6. Flyweight
+<a href='https://colab.research.google.com/drive/1kqHV6EPYMSme-dnuhZN-KXgXs9zwqv2S?usp=sharing'>блокнот на Colab</a>
 
 ### 7. Proxy
 
