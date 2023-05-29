@@ -58,20 +58,17 @@
 ### 5. Mediator
 <a href='https://colab.research.google.com/drive/19sfpg6YAT1gCE6tkTfZlquUyaEcTonOy?usp=sharing'>блокнот на Colab</a>
 
-### 6. Memento - !
-<a href='https://colab.research.google.com/drive/1j5W5rrAF3V_Jj2HbBbuIp5nVW2jbB1TI?usp=sharing'>блокнот на Colab</a>
-
-### 7. Observer
+### 6. Observer
 <a href='https://colab.research.google.com/drive/1-UccTOpBOjrhL6qkeMyZLvcOWC9yuF23?usp=sharing'>блокнот на Colab</a>
 
-### 8. State
+### 7. State
 <a href='https://colab.research.google.com/drive/16mr_bi2OBnJUej-ryPAStmDRO7H23cH0?usp=sharing'>блокнот на Colab</a>
 
-### 9. Strategy
+### 8. Strategy
 <a href='https://colab.research.google.com/drive/1pCwuj7-FJCw0-SUHM9bgLUTwQjlx918j?usp=sharing'>блокнот на Colab</a>
 
-### 10. Template method
+### 9. Template method
 <a href='https://colab.research.google.com/drive/1x27irzzx8Zmha8KdNU5G8Llw1g2OOKz7?usp=sharing'>блокнот на Colab</a>
 
-### 11. Visitor
+### 10. Visitor
 <a href='https://colab.research.google.com/drive/1Ebdt0KZ8vEs0sE98J-qrCj5RD45UGGv-?usp=sharing'>блокнот на Colab</a>
